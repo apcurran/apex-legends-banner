@@ -20,7 +20,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #E5E7EB;
+    background-color: #f3f4f6;
 }
 
 .apex-logo-container {
@@ -41,9 +41,9 @@ body {
     /* Beveled corner */
     clip-path: polygon(3% 0, 80% 0%, 100% 0, 100% 80%, 100% 100%, 0 100%, 0% 80%, 0 4%);
     color: var(--banner-txt-clr);
-    border-top: 2px solid #fff;
-    border-bottom: 2px solid #fff;
-    border-right: 4px solid #fff;
+    border-top: 2px solid var(--banner-accent-clr-light);
+    border-bottom: 2px solid var(--banner-accent-clr-light);
+    border-right: 4px solid var(--banner-accent-clr-light);
 }
 
 .banner__left-col {
