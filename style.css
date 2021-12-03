@@ -101,6 +101,7 @@ body {
 }
 
 .banner__right-col__img {
+    display: block;
     width: 100%;
     height: auto;
 }
