@@ -24,7 +24,8 @@ body {
 }
 
 .apex-logo-container {
-    width: 23rem;
+    /* Sets min, ideal, and max width */
+    width: clamp(10rem, 100%, 23rem);
 }
 
 .apex-logo {
