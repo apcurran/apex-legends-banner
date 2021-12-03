@@ -110,3 +110,27 @@ body {
     width: 100%;
     height: auto;
 }
+
+/* Smaller devices */
+@media screen and (max-width: 55em) {
+    body {
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 47em) {
+    .banner {
+        grid-template-columns: 1fr;
+        clip-path: polygon(10% 0, 80% 0%, 100% 0, 100% 80%, 100% 100%, 0 100%, 0% 80%, 0 4%);
+    }
+
+    .banner__divider {
+        border-left: initial;
+        border-bottom: 2px solid var(--banner-accent-clr-md);
+    }
+
+    .banner__left-col__username,
+    .banner__left-col__diamond {
+        margin-bottom: 5rem;
+    }
+}
