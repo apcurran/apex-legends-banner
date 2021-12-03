@@ -6,7 +6,9 @@
 
 :root {
     --banner-bg-clr: #374151;
-    --banner-accent-clr: #9ca3af;
+    --banner-accent-clr-light: #d1d5db;
+    --banner-accent-clr-md: #9ca3af;
+    --banner-accent-clr-dark: #4b5563;
     --banner-txt-clr: #e5e7eb;
 }
 
@@ -48,12 +50,17 @@ body {
 /* Diamond */
 .banner__left-col__diamond {
     padding: 1rem;
-    border: 2px solid white;
     transform: rotate(-45deg);
+    box-shadow:
+        0 0 0 2px var(--banner-accent-clr-dark),
+        0 0 0 4px var(--banner-bg-clr),
+        0 0 0 6px var(--banner-accent-clr-md);
 }
 
 .banner__left-col__diamond__txt {
     transform: rotate(45deg);
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 .banner__left-col__box-container {
@@ -67,8 +74,8 @@ body {
 .banner__box-container__box {
     padding: .5rem;
     padding-left: .5rem;
-    border: 1px solid var(--banner-accent-clr);
-    border-left: 3px solid var(--banner-accent-clr);
+    border: 1px solid var(--banner-accent-clr-md);
+    border-left: 3px solid var(--banner-accent-clr-md);
 }
 
 .banner__box-container__box__title {
@@ -76,7 +83,7 @@ body {
 }
 
 .banner__divider {
-    border-left: 2px solid var(--banner-accent-clr);
+    border-left: 2px solid var(--banner-accent-clr-md);
 }
 
 .fig {
