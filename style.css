@@ -28,8 +28,21 @@ body {
 .banner__left-col {
     padding: 1.5rem;
     display: grid;
-    justify-content: center;
+    justify-items: center;
     align-content: space-between;
+}
+
+.banner__left-col__box-container {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    max-width: 20rem;
+    min-width: 10rem;
+}
+
+.banner__box-container__box {
+    border: 1px solid blue;
+    border-left: 3px solid red;
 }
 
 .banner__divider {
