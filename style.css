@@ -24,7 +24,7 @@ body {
 }
 
 .apex-logo-container {
-    width: 24rem;
+    width: 23rem;
 }
 
 .apex-logo {
@@ -101,6 +101,7 @@ body {
 }
 
 .fig {
+    padding-bottom: 2rem;
     background: conic-gradient(from 90deg at 50% 125%, #1f005c, #003298, #005ac6, #007fdc, #00a2d3, #00c4ae, #00e474, #00ff00, #1f005c, #003298, #005ac6, #007fdc, #00a2d3, #00c4ae, #00e474, #00ff00);
 }
 
