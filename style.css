@@ -10,21 +10,27 @@
     --banner-accent-clr-md: #9ca3af;
     --banner-accent-clr-dark: #4b5563;
     --banner-txt-clr: #e5e7eb;
+    --apex-red: #b91c1c;
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Roboto Mono', monospace;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #111827;
+    background-color: #E5E7EB;
 }
 
-.page-title {
-    margin-bottom: 2rem;
-    color: var(--banner-txt-clr);
+.apex-logo-container {
+    width: 24rem;
+}
+
+.apex-logo {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .banner {
@@ -72,10 +78,14 @@ body {
 }
 
 .banner__box-container__box {
-    padding: .5rem;
-    padding-left: .5rem;
+    padding: .25rem;
     border: 1px solid var(--banner-accent-clr-md);
-    border-left: 3px solid var(--banner-accent-clr-md);
+}
+
+.banner__box-container__box__inner {
+    padding: .25rem;
+    padding-left: .5rem;
+    border-left: 4px solid var(--apex-red);
 }
 
 .banner__box-container__box__title {
