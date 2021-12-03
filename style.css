@@ -88,6 +88,10 @@ body {
     border-left: 4px solid var(--apex-red);
 }
 
+.banner__box-container__box__text {
+    color: var(--banner-accent-clr-light);
+}
+
 .banner__box-container__box__title {
     margin-bottom: .25rem;
 }
